@@ -1,0 +1,17 @@
+client_config_backend: file
+client_config:
+  client_id: 741937631325-p9el6lh3bjj4e9bd5tgn97b7aq63551p.apps.googleusercontent.com
+  client_secret: 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
+  # auth_uri: {{str}}
+  # token_uri: {{str}}
+  redirect_uri: 'http://localhost:8080/oauth2callback'
+  # revoke_uri: {{str}}
+
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: credentials.json
+
+get_refresh_token: True
+
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
